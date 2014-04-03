@@ -1,38 +1,36 @@
 pix2
 
-Ecrire le nom de son projet
+Lunette GPS
 
  
-
 1. Croquis
 
-Mettre l'image de son croquis 
+
 
  
-
 2. Cahier des charges 
 
 2.1. Quoi ? 
 
-Description en quelques phrases de votre objet. 
+Lunette permettant une assistance directionnelle dans le but de vous guider jusqu'à un lieu dont vous ignorez l'itinéraire.
 
  
 
 2.2. Pourquoi ? 
 
-Description en quelques phrases de l'intêret de se servir de cet objet. 
-
+Permet aux personnes portant des lunettes et même à ceux n'en portant pas d'être orientés d'une façon intuitive grace à ces dernières.
  
 
 2.3. Pour qui ? 
 
-Faire la liste des personnes/entreprises qui seraient intéressées par cet objet. 
+Tous personnes souhaitant bénéficier de ce service.
 
  
 
 2.4. Comment ? 
 
-Description en quelques phrases du mode de fonctionnement de l'objet. 
+Ces lunettes seront associés d'une interface bluetooth permettant de recevoir des informations GPS d'un mobile smartphone afin de les retranscrires
+en commande audio transmises par des écouteurs associés aux lunettes. 
 
  
 
