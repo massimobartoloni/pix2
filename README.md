@@ -5,8 +5,8 @@ Lunette GPS
  
 1. Croquis
 
-![croquis lunette GPS] (file:///C:/Users/Massimo/Source/Repos/pix2/croquilunette.png)
 
+(https://github.com/massimobartoloni/pix2/blob/master/croquilunette.png)
  
 2. Cahier des charges 
 
