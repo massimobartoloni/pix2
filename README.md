@@ -5,32 +5,32 @@ Lunette GPS
  
 1. Croquis
 
-![croquis lunette GPS] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/croquilunette.png?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9jcm9xdWlsdW5ldHRlLnBuZyIsImV4cGlyZXMiOjEzOTcxNTY3NzR9--0ca3755e6d144623afd35c15aa8225b10b9e1a97)
+![croquis lunette GPS] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/croquilunette.png)
 
  
 2. Cahier des charges 
 
 2.1. Quoi ? 
 
-Lunette permettant une assistance directionnelle dans le but de vous guider jusqu'à un lieu dont vous ignorez l'itinéraire.
+Lunette permettant une assistance directionnelle dans le but de vous guider jusqu'ï¿½ un lieu dont vous ignorez l'itinï¿½raire.
 
  
 
 2.2. Pourquoi ? 
 
-Permet aux personnes portant des lunettes et même à ceux n'en portant pas d'être orientés d'une façon intuitive grace à ces dernières.
+Permet aux personnes portant des lunettes et mï¿½me ï¿½ ceux n'en portant pas d'ï¿½tre orientï¿½s d'une faï¿½on intuitive grace ï¿½ ces derniï¿½res.
  
 
 2.3. Pour qui ? 
 
-Tous personnes souhaitant bénéficier de ce service.
+Tous personnes souhaitant bï¿½nï¿½ficier de ce service.
 
  
 
 2.4. Comment ? 
 
-Ces lunettes seront associés d'une interface bluetooth permettant de recevoir des informations GPS d'un mobile smartphone afin de les retranscrires
-en commande audio transmises par des écouteurs associés aux lunettes. 
+Ces lunettes seront associï¿½s d'une interface bluetooth permettant de recevoir des informations GPS d'un mobile smartphone afin de les retranscrires
+en commande audio transmises par des ï¿½couteurs associï¿½s aux lunettes. 
 
  
 
@@ -38,41 +38,41 @@ en commande audio transmises par des écouteurs associés aux lunettes.
 
 4.1. Cas d'utilisation 
 
-Mettre l'image des cas d'utilisation fabriquer à l'aide de Visual Studio 
+Mettre l'image des cas d'utilisation fabriquer ï¿½ l'aide de Visual Studio 
 
  
 
-4.2. Diagramme états-transitions 
+4.2. Diagramme ï¿½tats-transitions 
 
 A faire : 
 
 Installer Visio depuis Dreamspark. 
 
-Installer le modèle UML 2.2 dans Visio : http://softwarestencils.com/uml/index.html 
+Installer le modï¿½le UML 2.2 dans Visio : http://softwarestencils.com/uml/index.html 
 
  
 
-Mettre l'image du diagramme états-transitions fabriquer à l'aide de Visio avec le modèle UML 2.2. 
+Mettre l'image du diagramme ï¿½tats-transitions fabriquer ï¿½ l'aide de Visio avec le modï¿½le UML 2.2. 
 
  
 
-4. Description matériel 
+4. Description matï¿½riel 
 
-4.1. Schéma Gadgeteer et électronique de l'objet 
+4.1. Schï¿½ma Gadgeteer et ï¿½lectronique de l'objet 
 
-Insérer l'image obtenu à travers le designer Gadgeteer 
+Insï¿½rer l'image obtenu ï¿½ travers le designer Gadgeteer 
 
-(et si nécessaire le début du schema électronique des modules que vous devrez fabriquer) 
+(et si nï¿½cessaire le dï¿½but du schema ï¿½lectronique des modules que vous devrez fabriquer) 
 
  
 
-4.2. Liste des éléments à acheter pour le fabriquer 
+4.2. Liste des ï¿½lï¿½ments ï¿½ acheter pour le fabriquer 
 
-Liste du matériel avec pour chaque pièce : 
+Liste du matï¿½riel avec pour chaque piï¿½ce : 
 
-*le lien vers le datasheet ou la documentation de chaque élément. 
+*le lien vers le datasheet ou la documentation de chaque ï¿½lï¿½ment. 
 
-*le lien vers la pièce sur le site d'un des fournisseurs d'ESILV (voir la liste plus bas) 
+*le lien vers la piï¿½ce sur le site d'un des fournisseurs d'ESILV (voir la liste plus bas) 
 
 *le prix HT et TTC 
 
@@ -80,7 +80,7 @@ Liste du matériel avec pour chaque pièce :
 
 Dans le cadre des projets scolaires, ce sont les labos d'ESILV qui passeront les commandes. Il faut que les 
 
-étudiants sélectionnent leurs composants uniquement chez les fournisseurs suivants : 
+ï¿½tudiants sï¿½lectionnent leurs composants uniquement chez les fournisseurs suivants : 
 
 Lextronic : http://www.lextronic.fr/
 
@@ -94,7 +94,7 @@ Conrad : http://www.conradpro.fr/ce/
 
 5. Programmation 
 
-5.1. Description de la démonstration 
+5.1. Description de la dï¿½monstration 
 
 Mettre ici le menu de votre application console et indiquer comment refaire la demo. 
 
@@ -110,5 +110,5 @@ chaque fichier
 
 5.3. Diagramme de classes 
 
-Mettre ici le diagramme de classes fabriquer à l'aide de Visual Studio.
+Mettre ici le diagramme de classes fabriquer ï¿½ l'aide de Visual Studio.
 ====
