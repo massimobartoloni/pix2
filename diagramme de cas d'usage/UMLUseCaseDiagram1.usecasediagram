@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="a34199ad-19f3-4cbf-a591-6df001e87944" name="UMLUseCaseDiagram1" linkedPackageId="c5ec16f8-d1c0-4a38-b06e-7e90091e6680" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="e5032354-3911-4f2b-857e-48f0889f13b1">
+      <elementDefinition Id="9dafd888-40c1-47a4-bb62-9be813d36b10" />
+      <body>Module permettant de recevoir les données GPS </body>
+    </comment>
+    <comment Id="f097d306-2c21-4467-a859-6033027f2511">
+      <elementDefinition Id="744129b9-8db2-41de-8106-2f07b409031f" />
+      <body>Module on l'on entrera les coordonées
+</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="3ef5883d-f957-4ff2-87e5-4d2c47945258">
+      <profileInstance Id="f6c87ecd-60e7-435d-b3c0-68d51d3eae90" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="fbbd5166-5d69-47cc-a1d9-01c8a2a4aee4">
+      <profileInstance Id="5c4048ba-930a-492b-bbd8-f81a342d5ef8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fe0759ba-2651-43f7-ac0c-23834cd425f1" name="Lunette" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fb76ca83-9981-4171-abf4-64cfbfcf7501" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="35810494-82a9-40db-972d-084910c3dce2" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="84c1795d-14e6-4443-b9e9-148ad3872380" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="0edd5e6c-669a-41da-a485-0d12f0601be6" name="module" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4e6fe4ea-e090-4429-8e9c-ff6e15b8ac0c" />
+        <targetEnds>
+          <association Id="e4d62c54-258e-43e8-90db-482a24d4b990" isDerived="false" sourceEndRoleName="Subsystem1" targetEndRoleName="Lunette" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fe0759ba-2651-43f7-ac0c-23834cd425f1" LastKnownName="Lunette" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e9484f9-3b4b-4ce1-abf2-7000fbb8b5ea" name="Subsystem1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aa202f60-c72b-4fcb-8f14-354b09acedbe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d35624ec-85f3-4ae7-8351-903ee904823e" name="Lunette" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5eb3b2f6-c1bf-4f0e-9076-6d3779ed599c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5fb8053a-691f-4944-88e3-782d3beab504" />
+          </association>
+        </targetEnds>
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="49d9d980-5ac9-4911-9993-7ee66e3ce33b" name="Satellite" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3ee9a7f8-ade0-4dbf-88b3-ee013bccf3fc" />
+        <suppliersInternal>
+          <dependency Id="80143aa2-a9dc-48c6-8df4-5a6526ae505b">
+            <subsystemMoniker Id="0edd5e6c-669a-41da-a485-0d12f0601be6" LastKnownName="module" />
+            <elementDefinition Id="0d700bbc-2275-4479-93aa-4bfbdcacb802" />
+          </dependency>
+        </suppliersInternal>
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="baf66a84-984f-4335-8ab1-b28dbd79628d" name="Boussole" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="14bd7a04-f922-41e3-be6a-cfd39ee7c954" />
+        <targetEnds>
+          <association Id="01beddc1-3185-4636-a65c-7c29feb692f3" isDerived="false" sourceEndRoleName="Boussole" targetEndRoleName="Lunette" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fe0759ba-2651-43f7-ac0c-23834cd425f1" LastKnownName="Lunette" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ea6c0cba-c669-4938-b026-d267f6c25d05" name="Boussole" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ca623f81-4384-49b5-b84f-93dc49bb1354" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3de39078-6450-4860-989c-9dbb797ad13d" name="Lunette" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="213a6938-ce12-4db0-918e-a1b9e841faaa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3939748d-588d-4fd1-a0b1-4068c6b63721" />
+          </association>
+        </targetEnds>
+      </subsystem>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="c5ec16f8-d1c0-4a38-b06e-7e90091e6680" name="diagramme de cas d'usage">
+    <elementDefinition Id="06af47d3-441b-447a-ba6f-d325e89729a8" />
+  </package>
+</useCaseModelRoot>
