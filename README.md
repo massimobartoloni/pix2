@@ -12,25 +12,25 @@ https://github.com/massimobartoloni/pix2/blob/master/croquilunette.png
 
 2.1. Quoi ? 
 
-Lunette permettant une assistance directionnelle dans le but de vous guider jusqu'� un lieu dont vous ignorez l'itin�raire.
+Lunette permettant une assistance directionnelle dans le but de vous guider jusqu'à un lieu dont vous ignorez l'itinéraire.
 
  
 
 2.2. Pourquoi ? 
 
-Permet aux personnes portant des lunettes et m�me � ceux n'en portant pas d'�tre orient�s d'une fa�on intuitive grace � ces derni�res.
+Permet aux personnes portant des lunettes et même à ceux n'en portant pas d'être orientés d'une façon intuitive grace à ces dernières.
  
 
 2.3. Pour qui ? 
 
-Tous personnes souhaitant b�n�ficier de ce service.
+Tous personnes souhaitant bénéficier de ce service.
 
  
 
 2.4. Comment ? 
 
-Ces lunettes seront associ�s d'une interface bluetooth permettant de recevoir des informations GPS d'un mobile smartphone afin de les retranscrires
-en commande audio transmises par des �couteurs associ�s aux lunettes. 
+Ces lunettes seront associées d'une interface bluetooth permettant de recevoir des informations GPS d'un mobile smartphone afin de les retranscrires
+en commande audio transmises par des écouteurs associés aux lunettes. 
 
  
 
@@ -38,37 +38,27 @@ en commande audio transmises par des �couteurs associ�s aux lunettes.
 
 4.1. Cas d'utilisation 
 
-Mettre l'image des cas d'utilisation fabriquer � l'aide de Visual Studio 
+Mettre l'image des cas d'utilisation fabriquer à l'aide de Visual Studio 
 
  
 
-4.2. Diagramme �tats-transitions 
+4.2. Diagramme états-transitions 
 
-A faire : 
 
-Installer Visio depuis Dreamspark. 
 
-Installer le mod�le UML 2.2 dans Visio : http://softwarestencils.com/uml/index.html 
+4. Description matériel 
 
- 
+4.1. Schéma Gadgeteer et électronique de l'objet 
 
-Mettre l'image du diagramme �tats-transitions fabriquer � l'aide de Visio avec le mod�le UML 2.2. 
+Insérer l'image obtenu à travers le designer Gadgeteer 
 
- 
 
-4. Description mat�riel 
-
-4.1. Sch�ma Gadgeteer et �lectronique de l'objet 
-
-Ins�rer l'image obtenu � travers le designer Gadgeteer 
-
-(et si n�cessaire le d�but du schema �lectronique des modules que vous devrez fabriquer) 
 
  
 
-4.2. Liste des �l�ments � acheter pour le fabriquer 
+4.2. Liste des éléments à acheter pour le fabriquer 
 
-Liste du mat�riel avec pour chaque pi�ce : 
+Liste du matériel avec pour chaque pièce : 
 
 *le lien vers le datasheet ou la documentation de chaque �l�ment. 
 
@@ -80,7 +70,7 @@ Liste du mat�riel avec pour chaque pi�ce :
 
 Dans le cadre des projets scolaires, ce sont les labos d'ESILV qui passeront les commandes. Il faut que les 
 
-�tudiants s�lectionnent leurs composants uniquement chez les fournisseurs suivants : 
+étudiants s�lectionnent leurs composants uniquement chez les fournisseurs suivants : 
 
 Lextronic : http://www.lextronic.fr/
 
@@ -94,7 +84,7 @@ Conrad : http://www.conradpro.fr/ce/
 
 5. Programmation 
 
-5.1. Description de la d�monstration 
+5.1. Description de la démonstration 
 
 Mettre ici le menu de votre application console et indiquer comment refaire la demo. 
 
