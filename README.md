@@ -1,6 +1,6 @@
 pix2
 
-Lunette GPS
+Lunette anti colission
 
  
 1. Croquis
@@ -12,25 +12,24 @@ https://github.com/massimobartoloni/pix2/blob/master/croquilunette.png
 
 2.1. Quoi ? 
 
-Lunette permettant une assistance directionnelle dans le but de vous guider jusqu'à un lieu dont vous ignorez l'itinéraire.
+Lunette permettant de prevenir son utilisateur par vibration de la proximité d'un obstacle face à lui.
 
  
 
 2.2. Pourquoi ? 
 
-Permet aux personnes portant des lunettes et même à ceux n'en portant pas d'être orientés d'une façon intuitive grace à ces dernières.
+Permet aux personnes aveugle de facilité leurs déplacement .
  
 
 2.3. Pour qui ? 
 
-Tous personnes souhaitant bénéficier de ce service.
+Tous personnes souhaitant bénéficier de ce service mais notamment les personnes mal voyante.
 
  
 
 2.4. Comment ? 
 
-Ces lunettes seront associées d'une interface bluetooth permettant de recevoir des informations GPS d'un mobile smartphone afin de les retranscrires
-en commande audio transmises par des écouteurs associés aux lunettes. 
+Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fait la chauve souris, envoyera des ultrasons afin de calculer la distance entre l'utilisateur et un potentiel obstacle.
 
  
 
@@ -38,7 +37,7 @@ en commande audio transmises par des écouteurs associés aux lunettes.
 
 4.1. Cas d'utilisation 
 
-Mettre l'image des cas d'utilisation fabriquer à l'aide de Visual Studio 
+
 
  
 
