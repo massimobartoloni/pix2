@@ -1,36 +1,35 @@
 pix2
 
-Lunette GPS
+Lunette anti colission
 
  
 1. Croquis
 
-![croquis lunette GPS] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/croquilunette.png?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9jcm9xdWlsdW5ldHRlLnBuZyIsImV4cGlyZXMiOjEzOTcxNTY3NzR9--0ca3755e6d144623afd35c15aa8225b10b9e1a97)
 
+https://github.com/massimobartoloni/pix2/blob/master/croquilunette.png
  
 2. Cahier des charges 
 
 2.1. Quoi ? 
 
-Lunette permettant une assistance directionnelle dans le but de vous guider jusqu'à un lieu dont vous ignorez l'itinéraire.
+Lunette permettant de prevenir son utilisateur par vibration de la proximitÃ© d'un obstacle face Ã  lui.
 
  
 
 2.2. Pourquoi ? 
 
-Permet aux personnes portant des lunettes et même à ceux n'en portant pas d'être orientés d'une façon intuitive grace à ces dernières.
+Permet aux personnes aveugle de facilitÃ© leurs dÃ©placement .
  
 
 2.3. Pour qui ? 
 
-Tous personnes souhaitant bénéficier de ce service.
+Tous personnes souhaitant bÃ©nÃ©ficier de ce service mais notamment les personnes mal voyante.
 
  
 
 2.4. Comment ? 
 
-Ces lunettes seront associés d'une interface bluetooth permettant de recevoir des informations GPS d'un mobile smartphone afin de les retranscrires
-en commande audio transmises par des écouteurs associés aux lunettes. 
+Ces lunettes seront associÃ©es d'un emmeteur/recepteur d'ultrason et comme le fait la chauve souris, envoyera des ultrasons afin de calculer la distance entre l'utilisateur et un potentiel obstacle.
 
  
 
@@ -38,41 +37,31 @@ en commande audio transmises par des écouteurs associés aux lunettes.
 
 4.1. Cas d'utilisation 
 
-Mettre l'image des cas d'utilisation fabriquer à l'aide de Visual Studio 
+
 
  
 
-4.2. Diagramme états-transitions 
+4.2. Diagramme Ã©tats-transitions 
 
-A faire : 
 
-Installer Visio depuis Dreamspark. 
 
-Installer le modèle UML 2.2 dans Visio : http://softwarestencils.com/uml/index.html 
+4. Description matÃ©riel 
 
- 
+4.1. SchÃ©ma Gadgeteer et Ã©lectronique de l'objet 
 
-Mettre l'image du diagramme états-transitions fabriquer à l'aide de Visio avec le modèle UML 2.2. 
+InsÃ©rer l'image obtenu Ã  travers le designer Gadgeteer 
 
- 
 
-4. Description matériel 
-
-4.1. Schéma Gadgeteer et électronique de l'objet 
-
-Insérer l'image obtenu à travers le designer Gadgeteer 
-
-(et si nécessaire le début du schema électronique des modules que vous devrez fabriquer) 
 
  
 
-4.2. Liste des éléments à acheter pour le fabriquer 
+4.2. Liste des Ã©lÃ©ments Ã  acheter pour le fabriquer 
 
-Liste du matériel avec pour chaque pièce : 
+Liste du matÃ©riel avec pour chaque piÃ¨ce : 
 
-*le lien vers le datasheet ou la documentation de chaque élément. 
+*le lien vers le datasheet ou la documentation de chaque ï¿½lï¿½ment. 
 
-*le lien vers la pièce sur le site d'un des fournisseurs d'ESILV (voir la liste plus bas) 
+*le lien vers la piï¿½ce sur le site d'un des fournisseurs d'ESILV (voir la liste plus bas) 
 
 *le prix HT et TTC 
 
@@ -80,7 +69,7 @@ Liste du matériel avec pour chaque pièce :
 
 Dans le cadre des projets scolaires, ce sont les labos d'ESILV qui passeront les commandes. Il faut que les 
 
-étudiants sélectionnent leurs composants uniquement chez les fournisseurs suivants : 
+Ã©tudiants sï¿½lectionnent leurs composants uniquement chez les fournisseurs suivants : 
 
 Lextronic : http://www.lextronic.fr/
 
@@ -94,7 +83,7 @@ Conrad : http://www.conradpro.fr/ce/
 
 5. Programmation 
 
-5.1. Description de la démonstration 
+5.1. Description de la dÃ©monstration 
 
 Mettre ici le menu de votre application console et indiquer comment refaire la demo. 
 
@@ -110,5 +99,5 @@ chaque fichier
 
 5.3. Diagramme de classes 
 
-Mettre ici le diagramme de classes fabriquer à l'aide de Visual Studio.
+Mettre ici le diagramme de classes fabriquer ï¿½ l'aide de Visual Studio.
 ====
