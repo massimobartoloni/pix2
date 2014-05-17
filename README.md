@@ -43,7 +43,7 @@ Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fa
 
 4.2. Diagramme états-transitions 
 
-
+![visio] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/visiolunette.jpeg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci92aXNpb2x1bmV0dGUuanBlZyIsImV4cGlyZXMiOjE0MDA5MjM5NzZ9--1df69fa238a7a44cc247fe283b1894c792603481)
 
 4. Description matériel 
 
