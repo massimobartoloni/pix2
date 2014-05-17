@@ -38,7 +38,7 @@ Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fa
 4.1. Cas d'utilisation 
 
 
-
+![diagrammeusage] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/diagramme%20de%20cas%20d'usage/diagrammeusage.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9kaWFncmFtbWUgZGUgY2FzIGQndXNhZ2UvZGlhZ3JhbW1ldXNhZ2UuanBnIiwiZXhwaXJlcyI6MTQwMDkyNDM3NX0%3D--10d6e7143982d307118e6664dc915a0c0fe2b5b1)
  
 
 4.2. Diagramme états-transitions 
