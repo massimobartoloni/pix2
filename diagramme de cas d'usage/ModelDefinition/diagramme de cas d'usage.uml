@@ -5,13 +5,14 @@
   name="diagramme de cas d'usage" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <ownedCommentsInternal>
     <comment
-      Id="9dafd888-40c1-47a4-bb62-9be813d36b10">
-      <body>Module permettant de recevoir les données GPS </body>
-    </comment>
-    <comment
-      Id="744129b9-8db2-41de-8106-2f07b409031f">
-      <body>Module on l'on entrera les coordonées
-</body>
+      Id="c8fa7302-9318-4167-be68-dd3b1e8cec92">
+      <body>Si distance danger atteinte ou dépassée</body>
+      <annotatedElements>
+        <subsystemMoniker
+          Id="4e6fe4ea-e090-4429-8e9c-ff6e15b8ac0c"
+          LastKnownName="vibreur"
+          LastKnownLocation="diagramme de cas d'usage.uml" />
+      </annotatedElements>
     </comment>
   </ownedCommentsInternal>
   <profileInstances>
@@ -34,7 +35,24 @@
         Id="fb76ca83-9981-4171-abf4-64cfbfcf7501"
         name="Lunette"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="8b7c5161-d5c3-4b4e-80c2-e875593f845a">
+            <subsystemMoniker
+              Id="4e6fe4ea-e090-4429-8e9c-ff6e15b8ac0c"
+              LastKnownName="vibreur"
+              LastKnownLocation="diagramme de cas d'usage.uml" />
+          </dependency>
+          <dependency
+            Id="ef2508de-a9fd-4eb1-a3b4-bf6ad43eea4c">
+            <subsystemMoniker
+              Id="14301acf-d15e-4797-a79d-6e45030f20aa"
+              LastKnownName="Obstacle"
+              LastKnownLocation="diagramme de cas d'usage.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <actor
@@ -46,52 +64,10 @@
     <packageHasNamedElement>
       <subsystem
         Id="4e6fe4ea-e090-4429-8e9c-ff6e15b8ac0c"
-        name="module"
+        name="vibreur"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="5fb8053a-691f-4944-88e3-782d3beab504"
-            isDerived="false"
-            sourceEndRoleName="Subsystem1"
-            targetEndRoleName="Lunette"
-            isLeaf="false"
-            isAbstract="false">
-            <useCaseMoniker
-              Id="fb76ca83-9981-4171-abf4-64cfbfcf7501"
-              LastKnownName="Lunette"
-              LastKnownLocation="diagramme de cas d'usage.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="aa202f60-c72b-4fcb-8f14-354b09acedbe"
-                  name="Subsystem1"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="5eb3b2f6-c1bf-4f0e-9076-6d3779ed599c"
-                  name="Lunette"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
-      </subsystem>
+        isActiveClass="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <subsystem
@@ -105,7 +81,7 @@
             Id="0d700bbc-2275-4479-93aa-4bfbdcacb802">
             <subsystemMoniker
               Id="4e6fe4ea-e090-4429-8e9c-ff6e15b8ac0c"
-              LastKnownName="module"
+              LastKnownName="vibreur"
               LastKnownLocation="diagramme de cas d'usage.uml" />
           </dependency>
         </suppliersInternal>
@@ -168,6 +144,32 @@
           </association>
         </targetEnds>
       </subsystem>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="14301acf-d15e-4797-a79d-6e45030f20aa"
+        name="Obstacle"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="e98e06b1-0547-432f-8755-93c1d5758d24">
+            <useCaseMoniker
+              Id="fb76ca83-9981-4171-abf4-64cfbfcf7501"
+              LastKnownName="Lunette"
+              LastKnownLocation="diagramme de cas d'usage.uml" />
+          </dependency>
+        </suppliersInternal>
+      </subsystem>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="71ac2225-8031-4630-a71b-87af1167377a"
+        name="Subsystem2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
