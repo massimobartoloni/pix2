@@ -49,7 +49,6 @@ Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fa
 
 4.1. Schéma Gadgeteer et électronique de l'objet 
 
-Insérer l'image obtenu à travers le designer Gadgeteer 
 
 
 
@@ -57,27 +56,8 @@ Insérer l'image obtenu à travers le designer Gadgeteer
 
 4.2. Liste des éléments à acheter pour le fabriquer 
 
-Liste du matériel avec pour chaque pièce : 
+![liste] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/GadgeteerApp2/listecomposants.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9HYWRnZXRlZXJBcHAyL2xpc3RlY29tcG9zYW50cy5qcGciLCJleHBpcmVzIjoxNDAwOTI2NjEzfQ%3D%3D--3862f03b2a45ee5b4e15b5137dad3200fe73e95f)
 
-*le lien vers le datasheet ou la documentation de chaque �l�ment. 
-
-*le lien vers la pi�ce sur le site d'un des fournisseurs d'ESILV (voir la liste plus bas) 
-
-*le prix HT et TTC 
-
- 
-
-Dans le cadre des projets scolaires, ce sont les labos d'ESILV qui passeront les commandes. Il faut que les 
-
-étudiants s�lectionnent leurs composants uniquement chez les fournisseurs suivants : 
-
-Lextronic : http://www.lextronic.fr/
-
-Go Tronic : http://www.gotronic.fr/ 
-
-Radiospares : http://radiospares-fr.rs-online.com/web/ 
-
-Conrad : http://www.conradpro.fr/ce/ 
 
  
 
