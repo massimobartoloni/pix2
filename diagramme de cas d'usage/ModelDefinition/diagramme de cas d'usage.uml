@@ -6,11 +6,22 @@
   <ownedCommentsInternal>
     <comment
       Id="c8fa7302-9318-4167-be68-dd3b1e8cec92">
-      <body>Si distance danger atteinte ou dépassée</body>
+      <body>Si distance "danger" atteinte ou dépassée</body>
       <annotatedElements>
         <subsystemMoniker
           Id="4e6fe4ea-e090-4429-8e9c-ff6e15b8ac0c"
           LastKnownName="vibreur"
+          LastKnownLocation="diagramme de cas d'usage.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="5795426d-5e2c-420b-8830-0fe7f76ced3d">
+      <body>Ultrasons
+</body>
+      <annotatedElements>
+        <useCaseMoniker
+          Id="fb76ca83-9981-4171-abf4-64cfbfcf7501"
+          LastKnownName="Lunette"
           LastKnownLocation="diagramme de cas d'usage.uml" />
       </annotatedElements>
     </comment>

@@ -14,10 +14,21 @@
       <commentMoniker Id="c8c91a83-02d2-4d95-9330-6099e6f9afb7" />
       <relativeChildShapes />
     </commentShape>
+    <commentShape Id="821334fe-f501-4243-a5f5-ce51f99f2a56" absoluteBounds="7, 2.75, 0.875, 0.25" customColor="251, 247, 200">
+      <commentMoniker Id="1014a2f8-3238-4e17-9770-af27ba14c0d0" />
+      <relativeChildShapes />
+    </commentShape>
+    <commentConnector edgePoints="[(7 : 2.875); (6.74997428645934 : 1.75462900169499)]" fixedFrom="NotFixed" fixedTo="Caller" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+      <relativeChildShapes />
+      <nodes>
+        <commentShapeMoniker Id="821334fe-f501-4243-a5f5-ce51f99f2a56" />
+        <useCaseShapeMoniker Id="a726be34-9462-401b-8db1-4619a942f5ca" />
+      </nodes>
+    </commentConnector>
     <SubsystemShape Id="4e6bea9a-da86-4803-89cc-55bea6d0f0cd" absoluteBounds="2, 2.875, 1.875, 1.5" customColor="White">
       <subsystemMoniker Id="0edd5e6c-669a-41da-a485-0d12f0601be6" LastKnownName="vibreur" />
     </SubsystemShape>
-    <useCaseDependencyConnector edgePoints="[(4.88694701586415 : 1.84946059757449); (3.76095976659307 : 2.875)]" fixedFrom="Caller" fixedTo="Algorithm" customColor="Black">
+    <useCaseDependencyConnector edgePoints="[(4.88694701586415 : 1.84946059757449); (3.76095976659307 : 2.875)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
       <dependencyMoniker Id="6385b0f6-b6fc-4aa0-b36b-4c6dc216dbb6" />
       <relativeChildShapes />
       <nodes>
@@ -25,7 +36,7 @@
         <SubsystemShapeMoniker Id="4e6bea9a-da86-4803-89cc-55bea6d0f0cd" />
       </nodes>
     </useCaseDependencyConnector>
-    <commentConnector edgePoints="[(2.71875 : 2.375); (2.71875 : 2.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+    <commentConnector edgePoints="[(2.75 : 2.375); (3.7625 : 2.875)]" fixedFrom="NotFixed" fixedTo="Caller" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
       <relativeChildShapes />
       <nodes>
         <commentShapeMoniker Id="f7b9d70f-059c-418b-b38e-ae7df8068d2a" />
@@ -35,7 +46,7 @@
     <SubsystemShape Id="cf3ded8d-5f06-48ef-9219-318245e3f219" absoluteBounds="8.5, 0.75, 1.5, 4.75" customColor="White">
       <subsystemMoniker Id="6fb3a5af-0df1-46cf-b17f-df8b928743b7" LastKnownName="Obstacle" />
     </SubsystemShape>
-    <useCaseDependencyConnector edgePoints="[(8.5 : 1.62470550789961); (6.73702493384135 : 1.64637697230212)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+    <useCaseDependencyConnector edgePoints="[(8.5 : 1.62470550789961); (6.73702493384135 : 1.64637697230212)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
       <dependencyMoniker Id="78273064-3ab2-42f5-b53c-e074236a5af8" />
       <relativeChildShapes />
       <nodes>
@@ -43,7 +54,7 @@
         <useCaseShapeMoniker Id="a726be34-9462-401b-8db1-4619a942f5ca" />
       </nodes>
     </useCaseDependencyConnector>
-    <useCaseDependencyConnector edgePoints="[(6.74998427793261 : 1.74638038503661); (8.5 : 1.73962359642386)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="Black">
+    <useCaseDependencyConnector edgePoints="[(6.74998427793261 : 1.74638038503661); (8.5 : 1.73962359642386)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
       <dependencyMoniker Id="0416184e-d9b3-4637-b6e2-909104a464cd" />
       <relativeChildShapes />
       <nodes>

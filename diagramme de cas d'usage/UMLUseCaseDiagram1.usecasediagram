@@ -3,9 +3,17 @@
   <ownedCommentsInternal>
     <comment Id="c8c91a83-02d2-4d95-9330-6099e6f9afb7">
       <elementDefinition Id="c8fa7302-9318-4167-be68-dd3b1e8cec92" />
-      <body>Si distance danger atteinte ou dépassée</body>
+      <body>Si distance "danger" atteinte ou dépassée</body>
       <annotatedElements>
         <subsystemMoniker Id="0edd5e6c-669a-41da-a485-0d12f0601be6" LastKnownName="vibreur" />
+      </annotatedElements>
+    </comment>
+    <comment Id="1014a2f8-3238-4e17-9770-af27ba14c0d0">
+      <elementDefinition Id="5795426d-5e2c-420b-8830-0fe7f76ced3d" />
+      <body>Ultrasons
+</body>
+      <annotatedElements>
+        <useCaseMoniker Id="fe0759ba-2651-43f7-ac0c-23834cd425f1" LastKnownName="Lunette" />
       </annotatedElements>
     </comment>
   </ownedCommentsInternal>
