@@ -63,6 +63,47 @@
               LastKnownLocation="diagramme de cas d'usage.uml" />
           </dependency>
         </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="86266a81-fc4e-48a3-bd1a-7832d89bc5cf"
+            isDerived="false"
+            sourceEndRoleName="Lunette"
+            targetEndRoleName="Actor1"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="84c1795d-14e6-4443-b9e9-148ad3872380"
+              LastKnownName="Actor1"
+              LastKnownLocation="diagramme de cas d'usage.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9396860b-ad7d-416b-846c-e8c65ef5e597"
+                  name="Lunette"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="272b7101-3bf0-4173-8705-af3aae16f71f"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>

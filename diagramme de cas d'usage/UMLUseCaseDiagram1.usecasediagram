@@ -31,6 +31,24 @@
             <elementDefinition Id="ef2508de-a9fd-4eb1-a3b4-bf6ad43eea4c" />
           </dependency>
         </suppliersInternal>
+        <targetEnds>
+          <association Id="17fe5096-d207-4f1d-8120-083fe3c24f31" isDerived="false" sourceEndRoleName="Lunette" targetEndRoleName="Actor1" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="35810494-82a9-40db-972d-084910c3dce2" LastKnownName="Actor1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c9e02c49-613c-4dff-b8f1-10940f1d63ca" name="Lunette" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9396860b-ad7d-416b-846c-e8c65ef5e597" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eea686a6-fb51-4f63-b291-977c865d5b91" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="272b7101-3bf0-4173-8705-af3aae16f71f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="86266a81-fc4e-48a3-bd1a-7832d89bc5cf" />
+          </association>
+        </targetEnds>
       </useCase>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
