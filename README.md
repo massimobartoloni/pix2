@@ -37,13 +37,13 @@ Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fa
 
 4.1. Cas d'utilisation 
 
+![diagrammeusage] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/diagramme%20de%20cas%20d'usage/diagrammeusagepix2.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9kaWFncmFtbWUgZGUgY2FzIGQndXNhZ2UvZGlhZ3JhbW1ldXNhZ2VwaXgyLmpwZyIsImV4cGlyZXMiOjE0MDEzNDkzMzd9--664b65407eff16a60c35aabe00e8a1090c3de5ee)
 
-![diagrammeusage] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/diagramme%20de%20cas%20d'usage/diagrammeusage.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9kaWFncmFtbWUgZGUgY2FzIGQndXNhZ2UvZGlhZ3JhbW1ldXNhZ2UuanBnIiwiZXhwaXJlcyI6MTQwMDkyNDM3NX0%3D--10d6e7143982d307118e6664dc915a0c0fe2b5b1)
- 
 
 4.2. Diagramme états-transitions 
 
-![visio] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/visiolunette.jpeg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci92aXNpb2x1bmV0dGUuanBlZyIsImV4cGlyZXMiOjE0MDA5MjM5NzZ9--1df69fa238a7a44cc247fe283b1894c792603481)
+![visio] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/visio.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci92aXNpby5qcGciLCJleHBpcmVzIjoxNDAxMzQ5MjkyfQ%3D%3D--5d7f04e4f53cea88599d0a00fbc556b18e50de7a)
+ 
 
 4. Description matériel 
 
