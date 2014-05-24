@@ -55,7 +55,7 @@ Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fa
 
 4.2. Liste des éléments à acheter pour le fabriquer 
 
-![liste] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/GadgeteerApp2/listecomposants.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9HYWRnZXRlZXJBcHAyL2xpc3RlY29tcG9zYW50cy5qcGciLCJleHBpcmVzIjoxNDAwOTI2NjEzfQ%3D%3D--3862f03b2a45ee5b4e15b5137dad3200fe73e95f)
+![liste] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/GadgeteerApp2/listecomposants.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9HYWRnZXRlZXJBcHAyL2xpc3RlY29tcG9zYW50cy5qcGciLCJleHBpcmVzIjoxNDAxNTYxNjI1fQ%3D%3D--a1787df1e4860dc8cb2e609076f19daa611f114b)
 
 
 
