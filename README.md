@@ -50,7 +50,7 @@ Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fa
 4.1. Schéma Gadgeteer et électronique de l'objet 
 
 
-![gadgeteer] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/GadgeteerApp2/lunette.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9HYWRnZXRlZXJBcHAyL2x1bmV0dGUuanBnIiwiZXhwaXJlcyI6MTQwMDkyNjY4NH0%3D--7d2ef2600f83684a60db7f2cadd1fe76726ecb9b)
+![gadgeteer] (https://raw.githubusercontent.com/massimobartoloni/pix2/master/GadgeteerApp2/lunette.jpg?token=7039629__eyJzY29wZSI6IlJhd0Jsb2I6bWFzc2ltb2JhcnRvbG9uaS9waXgyL21hc3Rlci9HYWRnZXRlZXJBcHAyL2x1bmV0dGUuanBnIiwiZXhwaXJlcyI6MTQwMTU2MTU3NX0%3D--d0b49b5f68d0862576a8b9185680c04ef0fc598e)
  
 
 4.2. Liste des éléments à acheter pour le fabriquer 
