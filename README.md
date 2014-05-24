@@ -59,23 +59,7 @@ Ces lunettes seront associées d'un emmeteur/recepteur d'ultrason et comme le fa
 
 
 
-5. Programmation 
 
-5.1. Description de la démonstration 
 
-Mettre ici le menu de votre application console et indiquer comment refaire la demo. 
 
- 
-
-5.2. Liste des fichiers 
-
-Mettre ici le tree folder/file (revoir commande dos tree) de votre projet avec une courte description pour 
-
-chaque fichier 
-
- 
-
-5.3. Diagramme de classes 
-
-Mettre ici le diagramme de classes fabriquer � l'aide de Visual Studio.
 ====
